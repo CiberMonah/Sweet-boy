@@ -4,8 +4,8 @@
 #include <semaphore.h>
 #include <unistd.h>
 
-void producer();
-void consumer();
+void* producer();
+void* consumer();
 
 
 const int N = 4;            // How much plates on tables
@@ -17,7 +17,7 @@ sem_t full;                 // semafore to check dirty plates
 
 int plates_on_table = 0;    // текущее количество тарелок на столе
 
-void producer() {
+void* producer() {
     for (int i = 0; i < PLATES; i++) {
         printf("Process 1: washing plate %d\n", i + 1);
         sleep(1);
@@ -33,9 +33,11 @@ void producer() {
         sem_post(&mutex);
         sem_post(&full);
     }
+
+    return NULL;
 }
 
-void consumer() {
+void* consumer() {
     for (int i = 0; i < PLATES; i++) {
         
         // Wait for dirty 
@@ -53,6 +55,8 @@ void consumer() {
         printf("Process 2: dry plate; number - %d\n", i + 1);
         sleep(3);
     }
+
+    return NULL;
 }
 
 int main() {
