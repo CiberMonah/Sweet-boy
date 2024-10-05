@@ -52,7 +52,6 @@ void consumer() {
 int main() {
     int shmid = shmget(IPC_PRIVATE, sizeof(int), IPC_CREAT | 0666);
     plates_on_table = shmat(shmid, NULL, 0);
-    *plates_on_table = 0;
 
     mutex = sem_open("/mutex", O_CREAT, 0644, 1);
     empty = sem_open("/empty", O_CREAT, 0644, N);
