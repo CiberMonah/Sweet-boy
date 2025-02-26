@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTree_Lib.a CMakeFiles/Tree_Lib.dir/source/RBTree.cpp.o
+/usr/bin/ranlib libTree_Lib.a
