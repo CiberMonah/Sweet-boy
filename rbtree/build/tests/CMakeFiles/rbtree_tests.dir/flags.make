@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/andrew/Private/sems/sweet_boy/rbtree/include -I/home/andrew/Private/sems/sweet_boy/rbtree/tests/../include -isystem /home/andrew/Private/sems/sweet_boy/rbtree/build/_deps/googletest-src/googletest/include -isystem /home/andrew/Private/sems/sweet_boy/rbtree/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
+CXX_FLAGS = -std=gnu++17
 

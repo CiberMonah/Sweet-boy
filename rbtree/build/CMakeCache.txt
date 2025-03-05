@@ -25,7 +25,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -309,31 +309,13 @@ GeometryProject_SOURCE_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree/build
+RBTREE_BINARY_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree/build
 
 //Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
+RBTREE_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree
-
-//Value Computed by CMake
-RBTreeExample_BINARY_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree/build
-
-//Value Computed by CMake
-RBTreeExample_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-RBTreeExample_SOURCE_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree
-
-//Value Computed by CMake
-RBTreeProject_BINARY_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree/build
-
-//Value Computed by CMake
-RBTreeProject_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-RBTreeProject_SOURCE_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree
+RBTREE_SOURCE_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/andrew/Private/sems/sweet_boy/rbtree/build/_deps/googletest-build/googlemock

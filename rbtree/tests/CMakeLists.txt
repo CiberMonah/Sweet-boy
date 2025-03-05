@@ -19,7 +19,7 @@ add_executable(rbtree_tests
 )
 
 target_link_libraries(rbtree_tests
-    Tree_lib
+    Tree_Lib
     GTest::gtest
     GTest::gtest_main
 )

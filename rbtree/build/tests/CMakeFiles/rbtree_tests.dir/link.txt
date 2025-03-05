@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/rbtree_tests.dir/testing.cpp.o -o rbtree_tests  -lTree_lib ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a 
+/usr/bin/c++ CMakeFiles/rbtree_tests.dir/testing.cpp.o -o rbtree_tests  ../libTree_Lib.a ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a 

@@ -202,6 +202,7 @@ CMakeFiles/RBTree_example.dir/clean:
 # Target rules for target tests/CMakeFiles/rbtree_tests.dir
 
 # All Build rule for target.
+tests/CMakeFiles/rbtree_tests.dir/all: CMakeFiles/Tree_Lib.dir/all
 tests/CMakeFiles/rbtree_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/rbtree_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/rbtree_tests.dir/build.make tests/CMakeFiles/rbtree_tests.dir/depend
@@ -211,7 +212,7 @@ tests/CMakeFiles/rbtree_tests.dir/all: _deps/googletest-build/googletest/CMakeFi
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/rbtree_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Private/sems/sweet_boy/rbtree/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Private/sems/sweet_boy/rbtree/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/rbtree_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Private/sems/sweet_boy/rbtree/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/rbtree_tests.dir/rule

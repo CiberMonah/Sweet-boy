@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/RBTree_example.dir/source/main.cpp.o -o RBTree_example  libTree_Lib.a 
+/usr/bin/c++ CMakeFiles/RBTree_example.dir/source/main.cpp.o -o RBTree_example  libTree_Lib.a 

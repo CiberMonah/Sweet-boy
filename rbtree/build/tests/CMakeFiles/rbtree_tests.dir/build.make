@@ -92,6 +92,7 @@ rbtree_tests_EXTERNAL_OBJECTS =
 
 tests/rbtree_tests: tests/CMakeFiles/rbtree_tests.dir/testing.cpp.o
 tests/rbtree_tests: tests/CMakeFiles/rbtree_tests.dir/build.make
+tests/rbtree_tests: libTree_Lib.a
 tests/rbtree_tests: lib/libgtest.a
 tests/rbtree_tests: lib/libgtest_main.a
 tests/rbtree_tests: lib/libgtest.a
